@@ -1,11 +1,11 @@
 # Add  code here!
-def prime numbers = [1,2,3,4,5,6,7,8,9]
-  numbers.each do |number|
-     if number % i == 0
-    false
-  else
-   number % i == 1
-      true
+def prime numbers = []
+
+
+values = []
+
+  (2...number).to_a.each { |n| number % n != 0 ? values << true : values << false }
+
+  !values.include?(false) && number > 1 ? true : false
 end
-end
-end
+
