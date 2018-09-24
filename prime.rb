@@ -8,4 +8,3 @@ values = []
 
   !values.include?(false) && number > 1 ? true : false
 end
-
